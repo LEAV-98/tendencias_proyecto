@@ -38,7 +38,7 @@
                           <th>Empleado</th>
                           <th>Movil</th>
                           <th>Email</th>
-                          <th>Dirección</th>
+                          <!-- <th>Dirección</th> -->
                           <th>Estatus</th>
                           <th>Acción</th>
                       </tr>
@@ -82,19 +82,19 @@
                 <label for="">Apellido Materno</label>
                 <input type="text" class="form-control" id="txt_apema" onkeypress="return soloLetras(event)">
             </div>
-            <div class="col-6">
+            <!-- <div class="col-6">
                 <label for="">Fecha Nacimiento</label>
                 <input type="date" class="form-control" id="txt_fnac">
-            </div>
+            </div> -->
             <div class="col-6">
                 <label for="">Movil</label>
                 <input type="text" class="form-control" id="txt_movil" onkeypress="return soloNumeros(event)">
             </div>
-            <div class="col-12">
+            <!-- <div class="col-12">
                 <label for="">Dirección</label>
                 <input type="text" class="form-control" id="txt_dire">
-            </div>
-            <div class="col-12">
+            </div> -->
+            <div class="col-6">
                 <label for="">Email</label>
                 <input type="text" class="form-control" id="txt_email">
             </div>
@@ -138,19 +138,19 @@
                 <label for="">Apellido Materno</label>
                 <input type="text" class="form-control" id="txt_apema_editar" onkeypress="return soloLetras(event)">
             </div>
-            <div class="col-6">
+            <!-- <div class="col-6">
                 <label for="">Fecha Nacimiento</label>
                 <input type="date" class="form-control" id="txt_fnac_editar">
-            </div>
-            <div class="col-6">
+            </div> -->
+            <div class="col-3">
                 <label for="">Movil</label>
                 <input type="text" class="form-control" id="txt_movil_editar" onkeypress="return soloNumeros(event)">
             </div>
-            <div class="col-12">
+            <!-- <div class="col-12">
                 <label for="">Dirección</label>
                 <input type="text" class="form-control" id="txt_dire_editar">
-            </div>
-            <div class="col-8">
+            </div> -->
+            <div class="col-5">
                 <label for="">Email</label>
                 <input type="text" class="form-control" id="txt_email_editar">
             </div>

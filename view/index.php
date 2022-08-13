@@ -96,7 +96,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <img src="../plantilla/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block">Alexander Pierceee</a>
         </div>
       </div>
 
@@ -143,14 +143,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </p>
             </a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a onclick="cargar_contenido('contenido_principal','tipo_documento/view_tipodocumento.php')" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Tipo Documento
+                Tipo Documento a
               </p>
             </a>
-          </li>
+          </li> -->
           <?php 
           } 
           ?>

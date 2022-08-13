@@ -52,7 +52,7 @@
             <div class="icheck-primary">
               <input type="checkbox" id="remember">
               <label for="remember">
-                Remember Me
+                Recuerdame
               </label>
             </div>
           </div>
@@ -63,13 +63,13 @@
           <!-- /.col -->
         </div>
 
-      <p class="mb-1">
+      <!-- <p class="mb-1">
         <a href="seguimiento.php">Rastrear Tramite</a>
       </p>
       <p class="mb-1">
         <a href="registrar.php">Registrar Tramite</a>
       </p>
-  
+   -->
     </div>
     <!-- /.login-card-body -->
   </div>
@@ -88,7 +88,7 @@
   const rmcheck      = document.getElementById('remember'),
         usuarioInput = document.getElementById('txt_usuario'), 
         passInput    = document.getElementById('txt_contra');
-  if(localStorage.checkbox && localStorage.checkbox !=""){
+  if(localStorage.checkbox && localStorage.checkbox !=""){ 
     rmcheck.setAttribute("checked","checked");
     usuarioInput.value= localStorage.usuario;
     passInput.value   = localStorage.pass;

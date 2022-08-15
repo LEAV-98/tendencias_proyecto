@@ -11,7 +11,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Log in</title>
+  <title>SGTD</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -23,9 +23,18 @@
   <link rel="stylesheet" href="plantilla/dist/css/adminlte.min.css">
 </head>
 <body class="hold-transition login-page">
-<div class="login-box">
+  <div class="container">
+    <div class="row mx-auto">
+    <div class="col-3 mx-auto"><img src="./assets/PCM-Trabajo.png" alt="imagen pro" class="img-fluid"></div>
+      <div class="col-3 mx-auto"><img src="./assets/Logo_EsSalud.png" alt="imagen pro" class="img-fluid"></div>
+      <div class="col-3 mx-auto"><img src="./assets/logo-sunafil.png" alt="imagen pro" class="img-fluid"></div>
+
+    </div></div>
+
+<div class="login-box" style="width:450px">
   <div class="login-logo">
-    <a href="index.php"><b>LOGIN TRAMITE DOCUMENTARIO</b></a>
+    <a href="#"><b>TRÁMITE DOCUMENTARIO INTERINSTITUCIONAL</b></a>
+   
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -63,13 +72,13 @@
           <!-- /.col -->
         </div>
 
-      <!-- <p class="mb-1">
-        <a href="seguimiento.php">Rastrear Tramite</a>
+      <p class="mb-1">
+        <a href="#">Rastrear Tramite</a>
       </p>
       <p class="mb-1">
-        <a href="registrar.php">Registrar Tramite</a>
+        <a href="#">Registrar Tramite</a>
       </p>
-   -->
+  
     </div>
     <!-- /.login-card-body -->
   </div>

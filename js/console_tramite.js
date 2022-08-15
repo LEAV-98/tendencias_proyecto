@@ -377,9 +377,9 @@ function Registrar_Tramite() {
           "Nuevo tramite registrado codigo " + resp,
           "success"
         ).then((value) => {
-          window.open(
-            "MPDF/REPORTE/ticket_tramite.php?codigo=" + resp + "#zoom=100"
-          );
+          // window.open(
+          //   "MPDF/REPORTE/ticket_tramite.php?codigo=" + resp + "#zoom=100"
+          // );
           $("#contenido_principal").load("tramite/view_tramite.php");
         });
       } else {

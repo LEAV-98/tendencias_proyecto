@@ -44,7 +44,7 @@ function Iniciar_Sesion() {
           title: "Bienvenido al sistema!",
           //   html: 'Seeras redireccionado en <b></b> milliseconds.',
           timer: 1000,
-          timerProgressBar: true,
+          timerProgressBar: false,
           showConfirmButton: false,
 
           heightAuto: false,
